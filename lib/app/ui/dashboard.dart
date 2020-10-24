@@ -17,15 +17,14 @@ class _DashboardState extends State<Dashboard> {
         title: Center(child: Text('SleepSlip')),
         backgroundColor: Color(0xff001932),
       ),
-      body: LayoutBuilder(
-        //TODO add pull to refresh
-        builder: (context, constraints) => ListView(
+      body: RefreshIndicator(
+        onRefresh: () async {
+          setState(() {});
+        },
+        child: ListView(
           children: <Widget>[
             Container(
               padding: const EdgeInsets.all(20.0),
-              constraints: BoxConstraints(
-                minHeight: constraints.maxHeight,
-              ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[

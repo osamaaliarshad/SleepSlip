@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:sleepslip/app/repositories/get_alarm_time.dart';
-import 'package:sleepslip/app/ui/dashboard.dart';
 
 class AlarmCard extends StatelessWidget {
   AlarmCard({@required this.color, @required this.time});
@@ -21,8 +20,8 @@ class AlarmCard extends StatelessWidget {
             bottom: 3.0,
           ),
           child: GestureDetector(
-            onTap:
-                GetAlarmTime().refreshAlarms(), //TODO fix ontap to enable alarm
+            onTap: GetAlarmTime().refreshAlarms(),
+            //TODO fix ontap to enable alarm
             child: Card(
               color: color,
               child: Padding(

@@ -35,5 +35,5 @@ class GetAlarmTime {
     }
   }
 
-  refreshAlarms() {}
+  refreshAlarms() {} //temp function for the ontap gesture detection
 }

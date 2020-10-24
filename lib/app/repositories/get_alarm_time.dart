@@ -3,7 +3,7 @@ import 'package:intl/intl.dart';
 class GetAlarmTime {
   DateTime _now = DateTime.now();
   //essentially, 1h:44m passed current time,
-  //-then 1h:30m passed each consecutive time.
+  //then 1h:30m passed each consecutive time.
 
   String getTime(int cycles) {
     if (cycles == 1) {

@@ -14,7 +14,11 @@ class _DashboardState extends State<Dashboard> {
     return Scaffold(
       backgroundColor: Color(0xff001932),
       appBar: AppBar(
-        title: Center(child: Text('SleepSlip')),
+        title: Center(
+            child: Text(
+          'SleepySlip',
+          style: TextStyle(fontFamily: 'static', fontSize: 30.0),
+        )),
         backgroundColor: Color(0xff001932),
       ),
       body: RefreshIndicator(

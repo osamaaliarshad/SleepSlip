@@ -17,7 +17,7 @@ class _DashboardState extends State<Dashboard> {
         title: Center(
             child: Text(
           'SleepySlip',
-          style: TextStyle(fontFamily: 'static', fontSize: 30.0),
+          style: TextStyle(fontFamily: 'Sacramento', fontSize: 30.0),
         )),
         backgroundColor: Color(0xff001932),
       ),

@@ -17,7 +17,10 @@ class _DashboardState extends State<Dashboard> {
         title: Center(
             child: Text(
           'SleepySlip',
-          style: TextStyle(fontFamily: 'static', fontSize: 30.0),
+          style: TextStyle(
+              fontFamily: 'Sacramento',
+              fontSize: 30.0,
+              fontWeight: FontWeight.w500),
         )),
         backgroundColor: Color(0xff001932),
       ),
@@ -34,7 +37,7 @@ class _DashboardState extends State<Dashboard> {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.all(12.0),
-                    child: Text('Wake up times if you sleep now:'),
+                    child: Text('Optimal wake up times if you sleep now:'),
                   ),
                   AlarmCard(
                     color: Colors.purple[900],

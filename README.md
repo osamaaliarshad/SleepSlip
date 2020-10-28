@@ -1,6 +1,8 @@
-# sleepslip
+# SleepySlip
 
-A new Flutter project.
+A basic app that determines the optimal wake up time if you were to sleep now. 
+
+![Alt Text](url)
 
 ## Getting Started
 
